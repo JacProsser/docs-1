@@ -41,6 +41,11 @@ module.exports = {
       },
     ],
     sidebar,
+
+    algolia: {
+      apiKey: '656f2b4b509b4733d45edb9d04340bc3',
+      indexName: 'discord-button'
+    },
   },
 
   markdown: {

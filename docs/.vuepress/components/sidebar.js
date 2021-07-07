@@ -1,47 +1,47 @@
 const sidebar = {
-  '/d/': [
+  '/docs/stable/': [
     {
       title: 'Getting Started',
       collapsable: false,
       children: [
         './getting-started/installation',
         './getting-started/setup',
+        './getting-started/FAQ'
       ]
     },
     {
-      title: 'Sending Buttons',
-      collapsable: false,
+      title: 'Examples',
       children: [
-        './sending-buttons/channel-send',
-        './sending-buttons/message-edit',
-        './sending-buttons/message-reply',
-        './sending-buttons/remove-buttons'
+        './examples/buttons',
+        './examples/menus',
+        './examples/reply',
       ]
     },
     {
-      title: 'Contructors',
-      collapsable: false,
+      title: 'Classes',
       children: [
-        './constructors/message-button',
-        './constructors/message-action-row',
+        './classes/message',
+        './classes/messagebutton',
+        './classes/messagemenu',
+        './classes/messagemenuoption',
+        './classes/messageactionrow',
+        './classes/messagecomponent',
+        './classes/buttoncollector'
       ]
     },
     {
       title: 'Events/Collectors',
-      collapsable: false,
       children: [
-        './events/clickButton',
-        './events/createButtonCollector',
-        './events/awaitButtons',
+        './events/clickbutton',
       ]
     },
     {
-      title: 'Miscellaneous',
-      collapsable: false,
+      title: 'Managers',
       children: [
-        './miscellaneous/examples',
-        './miscellaneous/faq',
+        './managers/interactionreply.md',
       ]
     },
   ]
 };
+
+module.exports = sidebar;

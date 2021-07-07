@@ -10,7 +10,7 @@
 
 <style lang="stylus">
 .jac-logo .site-name {
-	background: url('/blue-icon.png') top left / contain no-repeat;
+	background: url('/blurple-icon.png') top left / contain no-repeat;
 	padding-left: 1.5em;
 	max-height: 100%;
 	display: flex;
@@ -30,7 +30,7 @@
 		line-height: 100%;
 
 		.site-name-js {
-			color: #2196f3
+			color: #5865F2
 		}
 	}
 }
@@ -42,33 +42,33 @@
 		.site-name-text {
 
 			.site-name-js {
-				color: #de3636;
+				color: #ED4245;
 			}
 		}
 	}
 }
 
-.jac-theme-mint {
+.jac-theme-green {
 	.jac-logo .site-name {
-		background-image: url('/mint-icon.png');
+		background-image: url('/green-icon.png');
 
 		.site-name-text {
 
 			.site-name-js {
-				color: #3eaf7c;
+				color: #57F287;
 			}
 		}
 	}
 }
 
-.jac-theme-purple {
+.jac-theme-yellow {
 	.jac-logo .site-name {
-		background-image: url('/purple-icon.png');
+		background-image: url('/yellow-icon.png');
 
 		.site-name-text {
 
 			.site-name-js {
-				color: #a846eb;
+				color: #FEE75C;
 			}
 		}
 	}

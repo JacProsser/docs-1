@@ -13,7 +13,7 @@ Adds an option to this menu.
 
 | PARAMETER      | TYPE                                                                                      | DEFAULT | OPTIONAL  | DESCRIPTION                                        |
 | -------------- | ----------------------------------------------------------------------------------------- | ------- | --------- | -------------------------------------------------- |
-| option         | [MessageMenuOptions](/d/typedef/messagemenuoptions)      |         | no        | The new option that will be added to this menu.                         |
+| option         | [MessageMenuOptions](/docs/stable/typedef/messagemenuoptions)      |         | no        | The new option that will be added to this menu.                         |
 
 Returns: [MessageMenu](#messagemenu)
 
@@ -25,7 +25,7 @@ Adds options to this menu.
 
 | PARAMETER      | TYPE                                                                                      | DEFAULT | OPTIONAL  | DESCRIPTION                                        |
 | -------------- | ----------------------------------------------------------------------------------------- | ------- | --------- | -------------------------------------------------- |
-| options         | [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)<[MessageMenuOptions](/d/typedef/messagemenuoptions)>      |         | no        | New options that will be added to this menu.                         |
+| options         | [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)<[MessageMenuOptions](/docs/stable/typedef/messagemenuoptions)>      |         | no        | New options that will be added to this menu.                         |
 
 Returns: [MessageMenu](#messagemenu)
 
@@ -39,7 +39,7 @@ Adds options to this menu.
 | -------------- | ----------------------------------------------------------------------------------------- | ------- | --------- | -------------------------------------------------- |
 | index         | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)      |         | no        | The index of the options that will be removed from this menu.                         |
 | deleteCount         | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)      |         | no        |           The count of the options that will be removed from this menu.              |
-| options         | [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)<[MessageMenuOptions](/d/typedef/messagemenuoptions)>      |         | no        |  Options that will be removed from this menu.                         |
+| options         | [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)<[MessageMenuOptions](/docs/stable/typedef/messagemenuoptions)>      |         | no        |  Options that will be removed from this menu.                         |
 
 Returns: [MessageMenu](#messagemenu)
 

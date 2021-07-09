@@ -2,20 +2,20 @@
 
 #### How can I remove a button from a message?
 
-A: At the moment, Discord API doesn't support that, but still you can edit your message and make the button [disabled](/d/classes/messagebutton.html#setdisabled-boolean)!
+A: At the moment, Discord API doesn't support that, but still you can edit your message and make the button [disabled](/docs/stable/classes/messagebutton.html#setdisabled-boolean)!
 
 <hr>
 
 #### I received `The interaction failed` error, why?
 
 A: It takes time for the Discord API and your bot to make connection, so maybe you have to put the user on wait. (for that you need to defer your button)
-[defer](/d/managers/interactionreply.html#defer-ephemeral) needs to be on clickButton Event!
+[defer](/docs/stable/managers/interactionreply.html#defer-ephemeral) needs to be on clickButton Event!
 
 <hr>
 
 #### I received `Unknown interaction` error, why?
 
-A: As I said earlier, it takes time for Discord API and your bot to make connection. But however, putting the user on wait has more than 1 ways ([defer](/d/classes/buttoninteraction.html#defer-ephemeral), [reply](/d/managers/interactionreply.html#send-content-options), [think](/d/managers/interactionreply.html#think-ephemeral)) and this error means you are putting the user on wait with more than only 1 way!
+A: As I said earlier, it takes time for Discord API and your bot to make connection. But however, putting the user on wait has more than 1 ways ([defer](/docs/stable/classes/buttoninteraction.html#defer-ephemeral), [reply](/docs/stable/managers/interactionreply.html#send-content-options), [think](/docs/stable/managers/interactionreply.html#think-ephemeral)) and this error means you are putting the user on wait with more than only 1 way!
 
 <hr>
 
@@ -34,7 +34,7 @@ if that doesn't work, make sure to enable [Intents](https://discord.com/develope
 
 #### What is an ephemeral reply type?
 
-A: Ephemeral type makes the message only visible to the person who clicked the button. (Ephemeral will only work with [Button#InteractionReply](/d/classes/buttoninteraction.html#reply), so keep that in mind)
+A: Ephemeral type makes the message only visible to the person who clicked the button. (Ephemeral will only work with [Button#InteractionReply](/docs/stable/classes/buttoninteraction.html#reply), so keep that in mind)
 
 <hr>
 
@@ -46,9 +46,9 @@ A:
 
 `2-)` Make sure to install the **latest** version of [discord-buttons](/). (`npm i discord-buttons@latest`)
 
-`3-)` Make sure you have your [style](/d/classes/messagebutton.html#setstyle-style) as `url` and don't have any [id](/d/classes/messagebutton.html#setid-id) for your button!
+`3-)` Make sure you have your [style](/docs/stable/classes/messagebutton.html#setstyle-style) as `url` and don't have any [id](/docs/stable/classes/messagebutton.html#setid-id) for your button!
 
-`4-)` Make sure to set the url with [setURL](/d/classes/messagebutton.html#seturl-url) function without any kind of intrupting characters. And also make sure to have everything that a url requires in [setURL](/d/classes/messagebutton.html#seturl-url) (e.g. `https://` `http://` `.com`)
+`4-)` Make sure to set the url with [setURL](/docs/stable/classes/messagebutton.html#seturl-url) function without any kind of intrupting characters. And also make sure to have everything that a url requires in [setURL](/docs/stable/classes/messagebutton.html#seturl-url) (e.g. `https://` `http://` `.com`)
 
 Example:
 ```js
@@ -76,7 +76,7 @@ new MessageEmbed(YOUR_OBJECT)
 `3-)` And if that's not the option, you maybe sending in a wrong formation.
 You need to pass the embed as embed and your button as button in your object
 
-**`P.S`**: If you have more than one button, you need to send them with [MessageActionRow](/d/classes/messageactionrow.html).
+**`P.S`**: If you have more than one button, you need to send them with [MessageActionRow](/docs/stable/classes/messageactionrow.html).
 
 <hr>
 

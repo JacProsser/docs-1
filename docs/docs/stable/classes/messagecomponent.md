@@ -89,7 +89,7 @@ Returns: Object<[User](https://discord.js.org/#/docs/main/stable/class/User), [G
 #### .webhook
 The webhook of this button interaction.
 
-Returns: [WebhookClient](/d/classes/webhookclient.html)
+Returns: [WebhookClient](/docs/stable/classes/webhookclient.html)
 
 <hr>
 
@@ -97,4 +97,4 @@ Returns: [WebhookClient](/d/classes/webhookclient.html)
 #### .reply
 Reply for the button
 
-Returns: [InteractionReply](/d/managers/interactionreply.html)
+Returns: [InteractionReply](/docs/stable/managers/interactionreply.html)

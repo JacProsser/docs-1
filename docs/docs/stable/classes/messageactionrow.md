@@ -12,7 +12,7 @@ Adds a component to this actions row.
 
 | PARAMETER      | TYPE                                                                                      | DEFAULT | OPTIONAL  | DESCRIPTION                                        |
 | -------------- | ----------------------------------------------------------------------------------------- | ------- | --------- | -------------------------------------------------- |
-| component         | [MessageButton](/d/classes/messagebutton.html)      |         | no        | The filter function to use                         |
+| component         | [MessageButton](/docs/stable/classes/messagebutton.html)      |         | no        | The filter function to use                         |
 
 Returns: [MessageActionRow](#)
 
@@ -24,7 +24,7 @@ Adds components to this actions row.
 
 | PARAMETER      | TYPE                                                                                      | DEFAULT | OPTIONAL  | DESCRIPTION                                        |
 | -------------- | ----------------------------------------------------------------------------------------- | ------- | --------- | -------------------------------------------------- |
-| components         | [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)<[MessageButton](/d/classes/messagebutton.html)>      |         | no        | The filter function to use                         |
+| components         | [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)<[MessageButton](/docs/stable/classes/messagebutton.html)>      |         | no        | The filter function to use                         |
 
 Returns: [MessageActionRow](#)
 

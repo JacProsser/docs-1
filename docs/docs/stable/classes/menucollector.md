@@ -1,10 +1,8 @@
-# ButtonCollector
-
+# MenuCollector
 extends [Collector]()
 
 <hr>
 <br>
-
 
 ### [Message](/docs/stable/classes/message)#createButtonCollector
 

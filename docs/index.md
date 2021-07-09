@@ -22,45 +22,66 @@ actionLink:
 </div>
 
 ### Installation
+
 ```sh
 npm i discord-buttons
 ```
 
 ### Setup
+
+<code-group>
+<code-block title="JS">
 ```js
 const discord = require('discord.js'); //Define the discord.js module
 const client = new discord.Client(); //Creating discord.js client (constructor)
 require('discord-buttons')(client);
 ```
-#### then
-```js
-const disbut = require('discord-buttons');
+</code-block>
 
-let button = new disbut.MessageButton()
-  .setLabel('This is a button!')
-  .setID('myid')
-  .setStyle('blurple');
-
-message.channel.send('Message with a button!', button);
-```
-
-### Typescript
+<code-block title="TS">
 ```ts
 import disbut from 'discord-buttons';
 disbut(client);
 ```
-#### then
+</code-block>
+</code-group>
+
+### then
+
+<code-group>
+<code-block title="JS">
 ```js
+const disbut = require("discord-buttons");
+
 let button = new disbut.MessageButton()
-  .setLabel('This is a button!')
-  .setID('myid')
-  .setStyle('blurple');
+  .setLabel("This is a button!")
+  .setID("myid")
+  .setStyle("blurple");
+
+message.channel.send("Message with a button!", button);
 ```
+</code-block>
+
+<code-block title="TS">
+```ts
+let button = new disbut.MessageButton()
+  .setLabel("This is a button!")
+  .setID("myid")
+  .setStyle("blurple");
+```
+</code-block>
+</code-group>
+
+
+
 
 ### Examples
-View handy examples on how to get started [Examples](./d/examples/buttons).
+
+View handy examples on how to get started [Examples](./docs/stable/examples/buttons).
 If you have any other problems/questions, you can join our [Support Server!](https://discord.gg/5JtyYqW)
 
 ### Contact
+
 Ask for help in our discord server: [discord.gg/src](https://discord.gg/src)
+
 ###### Invite didn't work?, use [discord.gg/5JtyYqW](https://discord.gg/5JtyYqW)

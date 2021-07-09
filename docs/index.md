@@ -76,7 +76,6 @@ let button = new disbut.MessageButton()
 
 
 ### Examples
-
 View handy examples on how to get started [Examples](./docs/stable/examples/buttons).
 If you have any other problems/questions, you can join our [Support Server!](https://discord.gg/5JtyYqW)
 

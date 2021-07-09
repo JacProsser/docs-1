@@ -87,5 +87,5 @@ You can use at your own risk or wait for updates.
 
 #### My Button is not Showing up, I did everything right.
 
-A: Sometimes you guys put the `clickButton` (event)[https://nodejs.org/api/events.html] on the command file, alternatively known as your message [event](https://nodejs.org/api/events.html) and that can cause some problems like that,
+A: Sometimes you guys put the `clickButton` [event](https://nodejs.org/api/events.html) on the command file, alternatively known as your message [event](https://nodejs.org/api/events.html) and that can cause some problems like that,
 if you don't know how events work, you can read more [here](https://www.w3schools.com/nodejs/nodejs_events.asp) if you don't know how events work.

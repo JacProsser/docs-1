@@ -56,13 +56,19 @@ Returns: [MessageMenuOption](#messagemenuoption)
 
 <hr>
 
+#### .setDisabled()
+Sets the option as disabled.
+
+Returns: [MessageMenuOption](#messagemenuoption)
+
+<hr>
+
 #### .setDefault()
 Sets this as the default option.
 
 Returns: [MessageMenuOption](#messagemenuoption)
 
 <hr>
-
 
 #### .toJSON()
 Transforms this menuoption to a plain object.
